@@ -13,18 +13,15 @@ export default function Home() {
   return (
     <Layout>
       <Head>
-        <title>Global Progress</title>
+        <title>Worldwide Steppers</title>
         <meta name="description" content="Firsthand notes on travel" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <Section>
         <Container>
-          <h1 className={styles.title}>
-            Global Progress
-          </h1>
 
-          <Map className={styles.homeMap} width="800" height="400" center={DEFAULT_CENTER} zoom={12}>
+          <Map className={styles.homeMap} width="100" height="100" center={DEFAULT_CENTER} zoom={12}>
             {({ TileLayer, Marker, Popup }) => (
               <>
                 <TileLayer

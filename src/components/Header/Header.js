@@ -11,12 +11,12 @@ const Header = () => {
       <Container className={styles.headerContainer}>
         <p className={styles.headerTitle}>
           <Link href="/">
-            Global Progress
+            Worldwide Steppers
           </Link>
         </p>
         <ul className={styles.headerLinks}>
           <li>
-            <a href="" rel="noreferrer">
+            <a href="https://github.com/granthale/global-progress" target="_blank" rel="noreferrer">
               <FaGithub />
             </a>
           </li>
